@@ -103,6 +103,7 @@
                                                                                               target:self
                                                                                               action:@selector(closePressed:)];
     }
+    self.showTypingIndicator = YES;
 }
 
 - (void)viewDidAppear:(BOOL)animated

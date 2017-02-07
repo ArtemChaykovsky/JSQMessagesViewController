@@ -99,8 +99,8 @@ const CGFloat kJSQMessagesTypingIndicatorFooterViewHeight = 55.0f;
         CGFloat bubbleMarginMaximumSpacing = collectionViewWidth - bubbleWidth - bubbleMarginMinimumSpacing;
         CGFloat indicatorMarginMaximumSpacing = collectionViewWidth - indicatorWidth - indicatorMarginMinimumSpacing;
         
-        self.bubbleImageViewRightHorizontalConstraint.constant = bubbleMarginMaximumSpacing-20;
-        self.typingIndicatorImageViewRightHorizontalConstraint.constant = indicatorMarginMaximumSpacing-20;
+        self.bubbleImageViewRightHorizontalConstraint.constant = bubbleMarginMaximumSpacing-15;
+        self.typingIndicatorImageViewRightHorizontalConstraint.constant = indicatorMarginMaximumSpacing-15;
     }
     else {
         self.bubbleImageView.image = [bubbleImageFactory outgoingMessagesBubbleImageWithColor:messageBubbleColor].messageBubbleImage;
